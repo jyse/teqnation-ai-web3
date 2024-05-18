@@ -1,0 +1,359 @@
+.app {
+  height: 100vh;
+}
+
+.header {
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 2px 11px 19px -11px rgba(0, 0, 0, 0.75);
+  gap: 20px;
+}
+
+.menu {
+  display: flex;
+  font-family: var(--font-mono);
+}
+
+.menuItem {
+  padding-left: 15px;
+}
+
+.menuItem:hover {
+  color: mediumslateblue;
+  cursor: pointer;
+}
+
+.viewConnections {
+  display: flex;
+  padding: 60px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button {
+  background-color: #33ad50;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+.buttonFs {
+  background-color: #ff9100fa;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+.remixIDE {
+  color: #fbff02;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.adminTools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.message {
+  color: mediumslateblue;
+}
+
+.gallery {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.img {
+  border-radius: 50px;
+}
+
+.collectionTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.collectionList {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+  background-color: #232323; /* Light gray background for each item */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cardContainer:hover {
+  background-color: #33ad4f9a;
+}
+
+.collectionList {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  gap: 15px;
+}
+
+.field {
+  background-color: #1c1c1c;
+  display: flex;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.qrCodeContainer {
+  border-radius: 8px;
+}
+
+.metaDataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.mintLayout {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.cardToBeMinted {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardToBeMinted img {
+  width: 500px;
+  border-radius: 8px;
+}
+
+.cardToBeMinted button {
+  /* background-color: #33ad50; */
+  background-color: mediumslateblue;
+  color: white;
+  padding: 5px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  width: 500px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .cardToBeMinted img {
+    width: 80%;
+  }
+  .cardToBeMinted button {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 80%;
+  }
+}
+
+/* Hover and focus states */
+.cardToBeMinted button:hover,
+.cardToBeMinted button:focus {
+  background-color: #2a9442;
+  cursor: pointer;
+}
+
+/* Style adjustments for mobile phones */
+@media (max-width: 480px) {
+  .cardToBeMinted img {
+    width: 90%;
+  }
+  .cardToBeMinted button {
+    width: 90%;
+  }
+}
+
+.cardToBeMinted button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+}
+.mintLoading {
+  padding: 20px;
+  border-radius: 4px;
+  color: #9b5de5; /* Updated to a purple color */
+}
+
+.mintLayout {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.mintSuccess {
+  padding: 20px;
+  background-color: #f3edf9; /* Light lila background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(147, 112, 219, 0.2); /* Purple shadow for depth */
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+}
+
+.mintSuccess h1 {
+  color: #834bff; /* Darker purple for contrast */
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.mintSuccess .mintTransaction {
+  background-color: #ffffff; /* Kept white for clarity */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(147, 112, 219, 0.1); /* Soft purple shadow */
+  margin-bottom: 20px;
+}
+
+.mintSuccess .mintTransaction h1 {
+  color: #7b2cbf; /* Deep purple for the transaction hash */
+  font-size: 18px;
+  word-break: break-all; /* Ensures the hash doesn't overflow */
+}
+
+.mintSuccess .checkAccount {
+  background-color: #7a36e7; /* Very light purple/lila */
+  padding: 15px 20px 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(123, 81, 206, 0.05); /* Subtle shadow */
+  border: none;
+}
+
+.mintSuccess .checkAccount h1 {
+  color: #ffffff; /* Purple text */
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.mintSuccess .checkAccount h1:hover {
+  color: #fda01f; /* Brighter purple on hover */
+}
+
+@media (max-width: 768px) {
+  .mintSuccess {
+    width: 95%;
+  }
+}
+
+.mintError {
+  padding: 20px;
+  background-color: #ffdddd; /* Light red background */
+  border-radius: 10px;
+  color: #d8000c; /* Dark red text */
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.setupGuide {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.setupTitle {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.setupContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.step {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.setupDescription {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .setupContent {
+    width: 90%;
+  }
+}
+
+.collectionPage {
+  background-color: teal;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Smaller device adjustments */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .cardToBeMinted img,
+  .cardToBeMinted button {
+    width: 90%;
+  }
+
+  .cardToBeMinted button {
+    font-size: 14px;
+  }
+}
