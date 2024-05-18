@@ -4,7 +4,7 @@ export async function GET() {
   const token = process.env.AIRTABLE_TOKEN;
   const baseId = process.env.AIRTABLE_BASE_ID;
 
-  const url = `https://api.airtable.com/v0/${baseId}/Final%20version%20Airtable?view=Grid%20view`;
+  const url = `https://api.airtable.com/v0/${baseId}/Database%20Cards?view=Grid%20view`;
 
   try {
     const response = await fetch(url, {
@@ -17,6 +17,7 @@ export async function GET() {
       cache: "no-store"
     });
 
+    console.log(response, "what is response here? 🐼🐼🐼🐼");
     if (!response.ok) {
       // Log more details about the failed request
       console.error(
