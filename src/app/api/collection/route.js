@@ -24,7 +24,6 @@ export async function GET() {
 
   // File exists, proceed to read its content
   const jsonContent = await readFile(jsonFilePath, "utf-8");
-  console.log(jsonContent, "JSON CONTENT 🌊🌴🚵‍♂️💏💖 ");
   const jsonData = JSON.parse(jsonContent);
 
   return new Response(

@@ -19,10 +19,6 @@ export async function GET() {
 
     console.log(response, "what is response here? 🐼🐼🐼🐼");
     if (!response.ok) {
-      // Log more details about the failed request
-      console.error(
-        `Failed to fetch Airtable data: HTTP status ${response.status} ${response.statusText}`
-      );
       throw new Error(
         `Failed to fetch Airtable data: HTTP status ${response.status} ${response.statusText}`
       );
