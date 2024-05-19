@@ -24,6 +24,7 @@ export async function GET() {
     }
 
     const { records } = await response.json();
+    console.log(records, "🖼️ Records retrieved from Airtable");
     return new Response(
       JSON.stringify({
         message: "Records retrieved 🍬🍬🍬",

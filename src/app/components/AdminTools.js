@@ -69,6 +69,7 @@ const AdminTools = () => {
   };
 
   const uploadDataToIPFS = async () => {
+    console.log("🚀 Uploading 🖼️ to IPFS✨");
     setIsLoading(true);
     try {
       const imgsHashIpfsResponse = await fetch("/api/imgIPFS");
@@ -101,7 +102,7 @@ const AdminTools = () => {
       }
     } catch (error) {
       console.error(error.message);
-      setMessage("Failedi to upload data to IPFS.");
+      setMessage("Failed to upload data to IPFS.");
     } finally {
       setIsLoading(false);
     }
