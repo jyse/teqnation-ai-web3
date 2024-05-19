@@ -55,7 +55,7 @@ const CollectionPage = () => {
               </div>
               <div className={styles.qrCodeContainer}>
                 <QRCode
-                  value={`https://devworldconnections.vercel.app/mint?tokenId=${item.tokenId}`}
+                  value={`https://teqnation-ai-web3.vercel.app/mint?tokenId=${item.tokenId}`}
                   size={250}
                   level={"H"}
                   includeMargin={true}
