@@ -13,11 +13,10 @@ export async function GET() {
         Authorization: `Bearer ${token}`,
         "Content-Type": "application/json",
         "Cache-Control": "no-cache"
-      },
-      cache: "no-store"
+      }
+      // cache: "no-store"
     });
 
-    console.log(response, "what is response here? 🐼🐼🐼🐼");
     if (!response.ok) {
       throw new Error(
         `Failed to fetch Airtable data: HTTP status ${response.status} ${response.statusText}`
