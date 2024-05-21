@@ -1,4 +1,8 @@
 // pages/api/airtable.js
+
+export const dynamic = 'force-dynamic'
+export const fetchCache = 'force-no-store'
+
 export async function GET() {
   console.log("getting airtable data 🚀🚀🚀🚀");
   const token = process.env.AIRTABLE_TOKEN;
@@ -13,8 +17,8 @@ export async function GET() {
         Authorization: `Bearer ${token}`,
         "Content-Type": "application/json",
         "Cache-Control": "no-cache"
-      }
-      // cache: "no-store"
+      },
+      cache: "no-store"
     });
 
     if (!response.ok) {
