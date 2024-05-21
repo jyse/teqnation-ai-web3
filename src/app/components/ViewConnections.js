@@ -4,7 +4,7 @@ import Setup from "./Setup";
 import AdminTools from "./AdminTools";
 import styles from "../page.module.css";
 
-const adminAddress = "0x3b21E4a79F5BE5AB4a854ae0b161873cE2cDCc73".toLowerCase();
+const adminAddress = "0x1d9a826de2763371e8f55fb353a11a6e934689aa".toLowerCase();
 
 const ViewConnections = () => {
   const [userAddress, setUserAddress] = useState(null);
