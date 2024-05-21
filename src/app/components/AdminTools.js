@@ -6,9 +6,6 @@ import styles from "../page.module.css";
 import { useRouter } from "next/navigation"; // Import useRouter
 import { connectSmartContract } from "../../../utils/connectSmartContract";
 
-// console logs for each step
-// call it Step 1, 2, 3, 4, etc. according to presentation slide
-
 const styleImg = {
   borderRadius: "4px"
 };
