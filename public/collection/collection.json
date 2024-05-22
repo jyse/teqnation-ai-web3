@@ -1,38 +1,78 @@
 [
   {
-    "image": "ipfs://Qmb9im9SgxCYccxicJJyGfHzzeGYeWao5kBpRMDxX5axtG/0.png",
+    "name": "Jessy",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/0.png",
     "imgName": "0.png",
     "tokenId": 0
   },
   {
-    "image": "ipfs://Qmb9im9SgxCYccxicJJyGfHzzeGYeWao5kBpRMDxX5axtG/1.png",
+    "name": "Gina ",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/1.png",
     "imgName": "1.png",
     "tokenId": 1
   },
   {
-    "name": "dream-spa",
-    "image": "ipfs://Qmb9im9SgxCYccxicJJyGfHzzeGYeWao5kBpRMDxX5axtG/2.png",
-    "description": "Hello Dream Spa",
-    "linkedIn": "https://www.linkedin.com/in/florian-boehmak-632b2243/",
+    "name": "Imtiaz",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/2.png",
+    "description": "Red dragon slayer with black lightning magic and arcane ruin programming mastery",
+    "linkedIn": "http://linkedin.com/in/imtiaz101325/",
     "imgName": "2.png",
     "tokenId": 2
   },
   {
-    "image": "ipfs://Qmb9im9SgxCYccxicJJyGfHzzeGYeWao5kBpRMDxX5axtG/3.png",
+    "name": "Max",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/3.png",
+    "description": "Clash of ships in the age of pirates with the pirates being ferrets and the british empire being mice",
+    "linkedIn": "https://www.linkedin.com/in/max-smeets/",
     "imgName": "3.png",
     "tokenId": 3
   },
   {
-    "name": "Lance",
-    "image": "ipfs://Qmb9im9SgxCYccxicJJyGfHzzeGYeWao5kBpRMDxX5axtG/4.png",
-    "description": "Spider-Man and Garfield",
-    "linkedIn": "https://www.linkedin.com/in/lancetoledo/",
+    "name": "Gunnar",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/4.png",
     "imgName": "4.png",
     "tokenId": 4
   },
   {
-    "image": "ipfs://Qmb9im9SgxCYccxicJJyGfHzzeGYeWao5kBpRMDxX5axtG/5.png",
+    "name": "Al",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/5.png",
     "imgName": "5.png",
     "tokenId": 5
+  },
+  {
+    "name": "Wojciech",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/6.png",
+    "description": "Fast car :))",
+    "linkedIn": "wojciech-kolasa-00b386277",
+    "imgName": "6.png",
+    "tokenId": 6
+  },
+  {
+    "name": "Dhanesh",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/7.png",
+    "imgName": "7.png",
+    "tokenId": 7
+  },
+  {
+    "name": "Abdul",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/8.png",
+    "description": "Dream car",
+    "linkedIn": "www.linkedin.com/in/abdelrahman-ghonim-032100274\n\n",
+    "imgName": "8.png",
+    "tokenId": 8
+  },
+  {
+    "name": "Ryan AKA King Luffy",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/9.png",
+    "description": "Fun , Anime Lover, Polygon Guild Lead Amsterdam",
+    "linkedIn": "https://linkedin.com/in/ryanlisse",
+    "imgName": "9.png",
+    "tokenId": 9
+  },
+  {
+    "name": "Belal",
+    "image": "ipfs://QmTw8xUacCzEP8iVSm2JPWv4pJhJXkJyMUuqEx6G4ZS3va/10.png",
+    "imgName": "10.png",
+    "tokenId": 10
   }
 ]

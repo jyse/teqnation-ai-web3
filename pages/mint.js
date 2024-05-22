@@ -87,14 +87,12 @@ const MintPage = () => {
     window.location.href = openSeaURL;
   };
 
-  console.log(tokenId, "what is tokenId here? 🍬🍬🍬🍬🍬🍬");
-
   return (
     <div className={styles.mintLayout}>
       <h1>Meet & Mint</h1>
       {loading ? (
         <div className={styles.mintLoading}>
-          <h1>Minting in progress...🍬🍬🍬🍬</h1>
+          <h1>Minting in progress🍬</h1>
         </div>
       ) : isAlreadyMinted ? (
         <div className={styles.mintError}>
