@@ -15,7 +15,7 @@ contract TeqNationFirst is ERC721, ERC721Enumerable, ERC721URIStorage {
     uint256 maxSupply = 30;
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://QmXzcHnf27j9jRj1NqxUxgd5ga92Vi4mnnxL8MXTtzV8Kr/";
+        return "ipfs://..[json-folder-hash].../";
     }
 
     function safeMint() public payable {
