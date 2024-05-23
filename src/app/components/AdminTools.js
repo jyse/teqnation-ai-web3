@@ -1,10 +1,12 @@
 "use client";
+
 import React, { useState } from "react";
+
 import Image from "next/image";
 import Link from "next/link";
+import { connectSmartContract } from "../../../utils/connectSmartContract";
 import styles from "../page.module.css";
 import { useRouter } from "next/navigation"; // Import useRouter
-import { connectSmartContract } from "../../../utils/connectSmartContract";
 
 const styleImg = {
   borderRadius: "4px"

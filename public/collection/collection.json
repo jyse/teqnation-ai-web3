@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Jessy",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/0.png",
+    "imgName": "0.png",
+    "tokenId": 0
+  },
+  {
+    "name": "Gina ",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/1.png",
+    "imgName": "1.png",
+    "tokenId": 1
+  },
+  {
+    "name": "Imtiaz",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/2.png",
+    "description": "Red dragon slayer with black lightning magic and arcane ruin programming mastery",
+    "linkedIn": "http://linkedin.com/in/imtiaz101325/",
+    "imgName": "2.png",
+    "tokenId": 2
+  },
+  {
+    "name": "Max",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/3.png",
+    "description": "Clash of ships in the age of pirates with the pirates being ferrets and the british empire being mice",
+    "linkedIn": "https://www.linkedin.com/in/max-smeets/",
+    "imgName": "3.png",
+    "tokenId": 3
+  },
+  {
+    "name": "Gunnar",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/4.png",
+    "imgName": "4.png",
+    "tokenId": 4
+  },
+  {
+    "name": "Al",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/5.png",
+    "imgName": "5.png",
+    "tokenId": 5
+  },
+  {
+    "name": "Wojciech",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/6.png",
+    "description": "Fast car :))",
+    "linkedIn": "wojciech-kolasa-00b386277",
+    "imgName": "6.png",
+    "tokenId": 6
+  },
+  {
+    "name": "Dhanesh",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/7.png",
+    "imgName": "7.png",
+    "tokenId": 7
+  },
+  {
+    "name": "Abdul",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/8.png",
+    "description": "Dream car",
+    "linkedIn": "www.linkedin.com/in/abdelrahman-ghonim-032100274\n\n",
+    "imgName": "8.png",
+    "tokenId": 8
+  },
+  {
+    "name": "Ryan AKA King Luffy",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/9.png",
+    "description": "Fun , Anime Lover, Polygon Guild Lead Amsterdam",
+    "linkedIn": "https://linkedin.com/in/ryanlisse",
+    "imgName": "9.png",
+    "tokenId": 9
+  },
+  {
+    "name": "Belal",
+    "image": "ipfs://QmQpxxvso1xNBN14m6Js69sa4LYAmy18seiaeLN6Za54RR/10.png",
+    "imgName": "10.png",
+    "tokenId": 10
+  }
+]

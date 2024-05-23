@@ -6,6 +6,7 @@ import {bscTestnet} from "thirdweb/chains";
 // import type {Chain} from "thirdweb/src/chains/types";
 
 const clientId = process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID;
+export const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
 
 if (!clientId) {
     throw new Error("No client ID provided");
@@ -17,7 +18,7 @@ export const client = createThirdwebClient({
 
 export const CHAIN = bscTestnet;
 
-export const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
+
 //
 export const contract = getContract({
     client,
