@@ -1,12 +1,12 @@
 "use client";
 
-import {createWallet, inAppWallet, walletConnect} from "thirdweb/wallets";
-import React, {useEffect, useState} from "react";
+import { createWallet, inAppWallet, walletConnect } from "thirdweb/wallets";
+import React, { useState, useEffect } from "react";
 import AdminTools from "./AdminTools";
-import {ConnectButton, ConnectEmbed} from "thirdweb/react";
+import { ConnectButton } from "thirdweb/react";
 import Setup from "./Setup";
 import styles from "../page.module.css";
-import {CHAIN, client} from "@/app/constants";
+import { client } from "@/app/constants";
 
 const adminAddress = "0x423b634BD967531BE48dB364f760da815d3cd98E".toLowerCase();
 
@@ -39,7 +39,7 @@ const ViewConnections2 = () => {
             window.ethereum.on("accountsChanged", handleAccountsChanged);
 
             window.ethereum
-                .request({method: "eth_accounts"})
+                .request({ method: "eth_accounts" })
                 .then(handleAccountsChanged)
                 .catch((err) => {
                     console.error("Error fetching accounts:", err);
@@ -75,27 +75,22 @@ const ViewConnections2 = () => {
                 {!userAddress ? (
                     <>
                         <h1>Hi there!</h1>
-                        <ConnectButton
-                            client={client}
-                            wallets={wallets}
-                            theme={"dark"}
-                            connectModal={{size: "wide"}}
-                            chain={CHAIN}
-                        />
+                        <button className={styles.button} onClick={connectWallet}>
+                            <h1>Connect Wallet</h1>
+                        </button>
                     </>
                 ) : isAdmin ? (
-                    <AdminTools/>
+                    <AdminTools />
                 ) : (
                     <div>
-                        <Setup/>
+                        <Setup />
                     </div>
                 )}
                 <ConnectButton
                     client={client}
                     wallets={wallets}
                     theme={"dark"}
-                    connectModal={{size: "wide"}}
-                    chain={CHAIN}
+                    connectModal={{ size: "wide" }}
                 />
             </div>
         </div>

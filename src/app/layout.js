@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {ThirdwebProvider} from "thirdweb/react";
-import {ConnectWallet} from "@thirdweb-dev/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +14,6 @@ export default function RootLayout({ children }) {
       <html lang="en">
       <body className={inter.className}>
       <ThirdwebProvider>
-          <ConnectWallet />
         {children}
       </ThirdwebProvider>
       </body>
